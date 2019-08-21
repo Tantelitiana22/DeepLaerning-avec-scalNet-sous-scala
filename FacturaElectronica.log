@@ -1,0 +1,57 @@
+2019-08-21 15:56:26,925 [main] INFO  testDL4J$ - Build model...
+2019-08-21 15:56:27,257 [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2019-08-21 15:56:27,945 [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 2
+2019-08-21 15:56:28,296 [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 2
+2019-08-21 15:56:28,307 [main] INFO  org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Windows 7]
+2019-08-21 15:56:28,307 [main] INFO  org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Cores: [4]; Memory: [1,8GB];
+2019-08-21 15:56:28,307 [main] INFO  org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2019-08-21 15:56:28,396 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Layer 0: Dense
+2019-08-21 15:56:28,396 [main] INFO  org.deeplearning4j.scalnet.models.Sequential -  size: in=List(784) out=List(512)
+2019-08-21 15:56:28,405 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Layer 1: Dense
+2019-08-21 15:56:28,405 [main] INFO  org.deeplearning4j.scalnet.models.Sequential -  size: in=List(512) out=List(512)
+2019-08-21 15:56:28,405 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Layer 2: Dense
+2019-08-21 15:56:28,405 [main] INFO  org.deeplearning4j.scalnet.models.Sequential -  size: in=List(512) out=List(10)
+2019-08-21 15:56:33,451 [main] INFO  org.reflections.Reflections - Reflections took 4577 ms to scan 274 urls, producing 5205 keys and 30060 values 
+2019-08-21 15:56:33,712 [main] INFO  org.deeplearning4j.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: SEPARATE; inference: SEPARATE]
+2019-08-21 15:56:34,403 [main] INFO  org.reflections.Reflections - Reflections took 576 ms to scan 15 urls, producing 468 keys and 2930 values 
+2019-08-21 15:56:34,601 [main] INFO  testDL4J$ - Train model...
+2019-08-21 15:56:34,623 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 0
+2019-08-21 15:56:35,025 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 0 is 2.422083608925382
+2019-08-21 15:56:48,145 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 1
+2019-08-21 15:56:48,978 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 1000 is 1.5251119917745555
+2019-08-21 15:57:00,984 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 2
+2019-08-21 15:57:02,983 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 2000 is 0.9852103573951982
+2019-08-21 15:57:14,883 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 3
+2019-08-21 15:57:17,212 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 3000 is 0.7370366050094012
+2019-08-21 15:57:26,466 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 4
+2019-08-21 15:57:29,411 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 4000 is 0.6832688399604541
+2019-08-21 15:57:37,607 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 5
+2019-08-21 15:57:41,310 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 5000 is 0.4652581476594757
+2019-08-21 15:57:48,893 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 6
+2019-08-21 15:57:53,392 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 6000 is 0.42343989431885926
+2019-08-21 15:58:00,074 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 7
+2019-08-21 15:58:05,285 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 7000 is 0.43380212291146986
+2019-08-21 15:58:11,413 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 8
+2019-08-21 15:58:17,260 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 8000 is 0.5807061240518215
+2019-08-21 15:58:22,529 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 9
+2019-08-21 15:58:29,127 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 9000 is 0.2593068512980085
+2019-08-21 15:58:33,595 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 10
+2019-08-21 15:58:41,378 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 10000 is 0.3361196779930958
+2019-08-21 15:58:46,220 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 11
+2019-08-21 15:58:54,757 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 11000 is 0.47196937846349724
+2019-08-21 15:58:58,128 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 12
+2019-08-21 15:59:07,640 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 12000 is 0.25116770904764724
+2019-08-21 15:59:09,950 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 13
+2019-08-21 15:59:19,840 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 13000 is 0.18511974956069294
+2019-08-21 15:59:21,447 [main] INFO  org.deeplearning4j.scalnet.models.Sequential - Epoch 14
+2019-08-21 15:59:32,234 [main] INFO  org.deeplearning4j.optimize.listeners.ScoreIterationListener - Score at iteration 14000 is 0.25284103149803244
+2019-08-21 15:59:33,080 [main] INFO  testDL4J$ - Evaluate model...
+2019-08-21 15:59:36,331 [main] INFO  testDL4J$ - Train accuracy = 0.9079333333333334
+2019-08-21 15:59:36,837 [main] INFO  testDL4J$ - Test accuracy = 0.9143
+2019-08-21 16:28:08,449 [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2019-08-21 16:28:09,369 [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 2
+2019-08-21 16:28:09,862 [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 2
+2019-08-21 16:28:09,883 [main] INFO  org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Windows 7]
+2019-08-21 16:28:09,884 [main] INFO  org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Cores: [4]; Memory: [1,8GB];
+2019-08-21 16:28:09,884 [main] INFO  org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2019-08-21 16:28:10,826 [main] INFO  org.reflections.Reflections - Reflections took 776 ms to scan 15 urls, producing 468 keys and 2930 values 
